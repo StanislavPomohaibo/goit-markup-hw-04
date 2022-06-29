@@ -25,6 +25,11 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+.clearfix::before {
+    content: " ";
+    display: table;
+}
+
 .icon-astronaut-1 .path1:before {
     content: "\e90d";
     color: rgb(33, 150, 243);

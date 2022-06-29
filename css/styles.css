@@ -179,6 +179,17 @@ section h2 {
     margin-right: 30px;
 }
 
+.why_me_column .why_me_icon{
+    text-align: center;
+    font-size: 70px;
+    width: 100%;
+    display: inline-table;
+    padding: 25px 0;
+    background: #F5F4FA;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
 .why_me p {
     margin-top: 0;
     font-size: 14px;
