@@ -71,10 +71,23 @@ header a {
     text-decoration: none;
     font-size: 14px;
     font-weight: 500;
-
+    line-height: 1;
+    letter-spacing: 0.02em;
+    display: flex;
+    align-items: flex-end;
 }
 
 header a:hover {
+    color: #2196F3;
+    stroke: #2196F3;
+    fill: #2196F3;
+}
+
+.header a:hover .icon-envelope:before {
+    color: #2196F3;
+}
+
+.header a:hover .icon-Vector:before {
     color: #2196F3;
 }
 
