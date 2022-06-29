@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'icons';
-    src: url('fonts/icons.eot?2dchoj');
-    src: url('fonts/icons.eot?2dchoj#iefix') format('embedded-opentype'),
-        url('fonts/icons.ttf?2dchoj') format('truetype'),
-        url('fonts/icons.woff?2dchoj') format('woff'),
-        url('fonts/icons.svg?2dchoj#icons') format('svg');
+    src: url('fonts/icons.eot?wwp0do');
+    src: url('fonts/icons.eot?wwp0do#iefix') format('embedded-opentype'),
+        url('fonts/icons.ttf?wwp0do') format('truetype'),
+        url('fonts/icons.woff?wwp0do') format('woff'),
+        url('fonts/icons.svg?wwp0do#icons') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: block;
@@ -20,14 +20,33 @@
     text-transform: none;
     line-height: 1;
 
+    /* Enable Ligatures ================ */
+    letter-spacing: 0;
+    -webkit-font-feature-settings: "liga";
+    -moz-font-feature-settings: "liga=1";
+    -moz-font-feature-settings: "liga";
+    -ms-font-feature-settings: "liga" 1;
+    font-feature-settings: "liga";
+    -webkit-font-variant-ligatures: discretionary-ligatures;
+    font-variant-ligatures: discretionary-ligatures;
+
     /* Better Font Rendering =========== */
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 
-.clearfix::before {
-    content: " ";
-    display: table;
+.icon-Logo-1:before {
+    content: "\e903";
+    color: #afb1b8;
+    width: 106px;
+    height: 60px;
+}
+
+.icon-Logo:before {
+    content: "\e907";
+    color: #afb1b8;
+    width: 106px;
+    height: 60px;
 }
 
 .icon-astronaut-1 .path1:before {
@@ -207,6 +226,11 @@
     color: rgb(33, 150, 243);
 }
 
+.icon-Objectobject3:before {
+    content: "\e908";
+    color: #afb1b8;
+}
+
 .icon-Group .path1:before {
     content: "\e92b";
     color: rgb(33, 33, 33);
@@ -228,14 +252,11 @@
     color: #2196f3;
 }
 
-.icon-Unionunion2:before {
-    content: "\e903";
-    color: #afb1b8;
-}
-
 .icon-Unionunion:before {
     content: "\e904";
     color: #afb1b8;
+    width: 106px;
+    height: 60px;
 }
 
 .icon-linkedin-1linkedit:before {
@@ -253,20 +274,8 @@
     color: #afb1b8;
 }
 
-.icon-Vector-4:before {
-    content: "\e907";
-}
-
-.icon-Vector-3:before {
-    content: "\e908";
-}
-
-.icon-Vector-2:before {
-    content: "\e909";
-}
-
-.icon-Vector-1:before {
-    content: "\e90a";
+.icon-instagram:before {
+    content: "\ea92";
 }
 
 .icon-Vector:before {

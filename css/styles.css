@@ -222,10 +222,37 @@ section h2 {
     background-color: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
+    padding-bottom: 20px;
 }
 
 .our_team_column_content {
     padding: 30px;
+}
+
+.our_team_column .our_team_links {
+    padding: 0 32px;
+    font-size: 20px;
+    color: #757575;
+}
+
+.our_team_links li {
+    height: 44px;
+    width: 44px;
+    padding: 12px;
+    border: none;
+    border-radius: 50%;
+}
+
+.our_team_links li:hover {
+    color: white;
+    fill: white;
+    background-color: #2196F3;
+    cursor: pointer;
+}
+
+.our_team_links li:hover span::before  {
+    color: white;
+    transition: 0.5s;
 }
 
 .our_team img {
@@ -246,6 +273,10 @@ section h2 {
     font-weight: 400;
     margin-bottom: 0;
     line-height: 1.18;
+}
+
+.regular_customers_links li {
+    font-size: 100px;
 }
 
 .navigation {
