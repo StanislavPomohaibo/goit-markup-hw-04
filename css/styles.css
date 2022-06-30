@@ -390,6 +390,10 @@ footer {
     padding: 60px 0;
 }
 
+.footer_section .footer-container {
+    display: flex;
+}
+
 .footer_section .logo {
     color: #FFFFFF;
     text-decoration: none;
@@ -427,4 +431,38 @@ address a:hover {
 
 .footer_adress li:last-child {
     margin:0;
+}
+
+.footer-socials {
+    padding: 0 0 0 72px;
+}
+
+.footer-socials p {
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 15px;
+    line-height: 3;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.footer_section .footer-socials a {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    padding: 6px;
+    margin-right: 10px;
+    display: block;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.footer_section .footer-socials span::before {
+    color: #FFFFFF;
+}
+
+.footer_section .footer-socials a:hover {
+    background-color: #2196F3;
+    transition: 00.5s;
 }
