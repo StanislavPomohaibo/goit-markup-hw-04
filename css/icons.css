@@ -38,15 +38,11 @@
 .icon-Logo-1:before {
     content: "\e903";
     color: #afb1b8;
-    width: 106px;
-    height: 60px;
 }
 
 .icon-Logo:before {
     content: "\e907";
     color: #afb1b8;
-    width: 106px;
-    height: 60px;
 }
 
 .icon-astronaut-1 .path1:before {
@@ -249,14 +245,12 @@
 
 .icon-groupgroup:before {
     content: "\e902";
-    color: #2196f3;
+    color: #AFB1B8;
 }
 
 .icon-Unionunion:before {
     content: "\e904";
     color: #afb1b8;
-    width: 106px;
-    height: 60px;
 }
 
 .icon-linkedin-1linkedit:before {

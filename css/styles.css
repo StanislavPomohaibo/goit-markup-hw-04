@@ -275,8 +275,39 @@ section h2 {
     line-height: 1.18;
 }
 
-.regular_customers_links li {
-    font-size: 100px;
+.regular_customers .regular_customers_links {
+    text-align: center;
+}
+
+.regular_customers_links a {
+    display: block;
+    font-size: 50px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    width: 170px;
+    height: 92px;
+    line-height: 1;
+    padding: 20px 0 15px;
+}
+
+.regular_customers_links a:hover {
+    cursor: pointer;
+    border-color: #2196F3;
+}
+
+.regular_customers_links a:active {
+    cursor: pointer;
+    border-color: #2196F3;
+}
+
+.regular_customers_links li:hover span::before {
+    color: #2196F3;
+    transition: 0.5s;
+}
+
+.regular_customers_links li:active span::before {
+    color: #2196F3;
+    transition: 0.5s;
 }
 
 .navigation {
