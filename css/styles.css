@@ -79,8 +79,6 @@ header a {
 
 header a:hover {
     color: #2196F3;
-    stroke: #2196F3;
-    fill: #2196F3;
 }
 
 .header a:hover .icon-envelope:before {
@@ -88,6 +86,14 @@ header a:hover {
 }
 
 .header a:hover .icon-Vector:before {
+    color: #2196F3;
+}
+
+.header a:focus .icon-envelope:before {
+    color: #2196F3;
+}
+
+.header a:focus .icon-Vector:before {
     color: #2196F3;
 }
 
@@ -179,6 +185,7 @@ section h2 {
 
 .why_me_column .why_me_icon{
     text-align: center;
+    height: 120px;
     font-size: 70px;
     width: 100%;
     display: inline-table;
@@ -233,7 +240,8 @@ section h2 {
     color: #757575;
 }
 
-.our_team_links li {
+.our_team_links a {
+    display: block;
     height: 44px;
     width: 44px;
     padding: 12px;
@@ -241,16 +249,23 @@ section h2 {
     border-radius: 50%;
 }
 
-.our_team_links li:hover {
+.our_team_links a:hover {
     color: white;
-    fill: white;
     background-color: #2196F3;
     cursor: pointer;
 }
 
-.our_team_links li:hover span::before  {
+.our_team_links a:focus {
+    background-color: #2196F3;
+}
+
+.our_team_links a:hover span::before  {
     color: white;
     transition: 0.5s;
+}
+
+.our_team_links a:focus span::before {
+    color: white;
 }
 
 .our_team img {
@@ -288,22 +303,32 @@ section h2 {
     padding: 20px 0 15px;
 }
 
+.regular_customers .regular_customers_links .third-link {
+    font-size: 65px;
+    padding: 10px 0;
+}
+
+.regular_customers .regular_customers_links .forth-link {
+    font-size: 75px;
+    padding: 5px 0;
+}
+
 .regular_customers_links a:hover {
     cursor: pointer;
     border-color: #2196F3;
 }
 
-.regular_customers_links a:active {
+.regular_customers_links a:focus {
     cursor: pointer;
     border-color: #2196F3;
 }
 
-.regular_customers_links li:hover span::before {
+.regular_customers_links a:hover span::before {
     color: #2196F3;
     transition: 0.5s;
 }
 
-.regular_customers_links li:active span::before {
+.regular_customers_links a:focus span::before {
     color: #2196F3;
     transition: 0.5s;
 }
@@ -343,6 +368,12 @@ section h2 {
     transition: 0.5s;
 }
 
+.portfolio_button:focus {
+    background-color: #2196F3;
+    color: #FFFFFF;
+    transition: 0.5s;
+}
+
 .portfolio_card_list {
     display: flex;
     flex-wrap: wrap;
@@ -354,6 +385,12 @@ section h2 {
 
 .portfolio_card {
     background: #FFFFFF;
+}
+
+.portfolio_card:hover {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+    cursor: pointer;
+    transition: 0.5s;
 }
 
 .portfolio_card img {
@@ -461,6 +498,11 @@ address a:hover {
 }
 
 .footer_section .footer-socials a:hover {
+    background-color: #2196F3;
+    transition: 00.5s;
+}
+
+.footer_section .footer-socials a:focus {
     background-color: #2196F3;
     transition: 00.5s;
 }
